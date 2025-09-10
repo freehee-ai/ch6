@@ -106,5 +106,7 @@ print(result)
 strings = ['foo', 'card', 'ba', 'aaa']
 
 # 문자의 크기를 비교하는 함수
+# 함수의 매개변수가 함수일 때,
+# 람다식 함수를 활용
 strings.sort(key = lambda s : len(s))
 print(strings)
